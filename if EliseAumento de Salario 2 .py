@@ -1,0 +1,2 @@
+s = float(input('Qual seu salario: R$'))
+print ('Seu salario vai aumentar em 15% indo para R${:.2f}.'.format(s*1.15) if s <= 1250.00 else 'Seu salario vai ter um aumento de 10% indo R${:.2f}.'.format(s*1.10))

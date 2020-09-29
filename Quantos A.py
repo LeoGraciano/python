@@ -1,0 +1,5 @@
+n = str (input('Escreva seu nome: ')).strip()
+print ('Seu nome tem {} de letras A.'.format(n.upper().count('A')))
+print('Letra "a" aparece a primeira vez na posição {}.'.format(n.upper().find('A')+1))
+print('A letra "a" aparece pela ultima vez na posição {}.'.format(n.upper().rfind('A')+1))
+print (len(n))
