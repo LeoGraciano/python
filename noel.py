@@ -1,2 +1,2 @@
-def solution(n):
-    return "Ho!"
+def solution(N):
+    return "Ho " * (N - 1) + "Ho!"
